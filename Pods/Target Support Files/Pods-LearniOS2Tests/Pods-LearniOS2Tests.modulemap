@@ -1,0 +1,6 @@
+framework module Pods_LearniOS2Tests {
+  umbrella header "Pods-LearniOS2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,10 @@
 		4C14B02E2B3BA40100C74A6A /* LearniOS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14B02D2B3BA40100C74A6A /* LearniOS2Tests.swift */; };
 		4C14B0382B3BA40100C74A6A /* LearniOS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14B0372B3BA40100C74A6A /* LearniOS2UITests.swift */; };
 		4C14B03A2B3BA40100C74A6A /* LearniOS2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14B0392B3BA40100C74A6A /* LearniOS2UITestsLaunchTests.swift */; };
+		4C79318C2B3BE727007779AD /* APIFetchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79318B2B3BE727007779AD /* APIFetchHandler.swift */; };
+		75E4C92BCFF395A32454EDBA /* Pods_LearniOS2_LearniOS2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F54BD4A0B1A6A9F5566C3 /* Pods_LearniOS2_LearniOS2UITests.framework */; };
+		DDC488D30DCF8585307B3E99 /* Pods_LearniOS2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A58A9AE3AA5F7082190C307 /* Pods_LearniOS2.framework */; };
+		FE6F29C6C52BE0922AD26644 /* Pods_LearniOS2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3348340DF6ECB5ADE8543C88 /* Pods_LearniOS2Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B756B24773ECF0BF7859C4D /* Pods-LearniOS2-LearniOS2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOS2-LearniOS2UITests.debug.xcconfig"; path = "Target Support Files/Pods-LearniOS2-LearniOS2UITests/Pods-LearniOS2-LearniOS2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3348340DF6ECB5ADE8543C88 /* Pods_LearniOS2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOS2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E126ECD1D58FA88E2FC00F1 /* Pods-LearniOS2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOS2Tests.release.xcconfig"; path = "Target Support Files/Pods-LearniOS2Tests/Pods-LearniOS2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C14B0182B3BA40000C74A6A /* LearniOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearniOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C14B01B2B3BA40000C74A6A /* LearniOS2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearniOS2App.swift; sourceTree = "<group>"; };
 		4C14B01D2B3BA40000C74A6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,13 @@
 		4C14B0332B3BA40100C74A6A /* LearniOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearniOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C14B0372B3BA40100C74A6A /* LearniOS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearniOS2UITests.swift; sourceTree = "<group>"; };
 		4C14B0392B3BA40100C74A6A /* LearniOS2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearniOS2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C79318B2B3BE727007779AD /* APIFetchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchHandler.swift; sourceTree = "<group>"; };
+		5173BE34C45CB93E0B15A3E8 /* Pods-LearniOS2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOS2.release.xcconfig"; path = "Target Support Files/Pods-LearniOS2/Pods-LearniOS2.release.xcconfig"; sourceTree = "<group>"; };
+		6165EC249CCD0D9197119B67 /* Pods-LearniOS2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOS2Tests.debug.xcconfig"; path = "Target Support Files/Pods-LearniOS2Tests/Pods-LearniOS2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9F54BD4A0B1A6A9F5566C3 /* Pods_LearniOS2_LearniOS2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOS2_LearniOS2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86160A7B83A110FA838B342B /* Pods-LearniOS2-LearniOS2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOS2-LearniOS2UITests.release.xcconfig"; path = "Target Support Files/Pods-LearniOS2-LearniOS2UITests/Pods-LearniOS2-LearniOS2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A58A9AE3AA5F7082190C307 /* Pods_LearniOS2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOS2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3474BE6328DCD264A598C7C /* Pods-LearniOS2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOS2.debug.xcconfig"; path = "Target Support Files/Pods-LearniOS2/Pods-LearniOS2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC488D30DCF8585307B3E99 /* Pods_LearniOS2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6F29C6C52BE0922AD26644 /* Pods_LearniOS2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E4C92BCFF395A32454EDBA /* Pods_LearniOS2_LearniOS2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445E460A6E36342DC6E6CBBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3474BE6328DCD264A598C7C /* Pods-LearniOS2.debug.xcconfig */,
+				5173BE34C45CB93E0B15A3E8 /* Pods-LearniOS2.release.xcconfig */,
+				1B756B24773ECF0BF7859C4D /* Pods-LearniOS2-LearniOS2UITests.debug.xcconfig */,
+				86160A7B83A110FA838B342B /* Pods-LearniOS2-LearniOS2UITests.release.xcconfig */,
+				6165EC249CCD0D9197119B67 /* Pods-LearniOS2Tests.debug.xcconfig */,
+				3E126ECD1D58FA88E2FC00F1 /* Pods-LearniOS2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4C14B00F2B3BA40000C74A6A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +109,8 @@
 				4C14B02C2B3BA40100C74A6A /* LearniOS2Tests */,
 				4C14B0362B3BA40100C74A6A /* LearniOS2UITests */,
 				4C14B0192B3BA40000C74A6A /* Products */,
+				445E460A6E36342DC6E6CBBA /* Pods */,
+				7B107BE3E230204D07F45BFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +127,7 @@
 		4C14B01A2B3BA40000C74A6A /* LearniOS2 */ = {
 			isa = PBXGroup;
 			children = (
+				4C79318B2B3BE727007779AD /* APIFetchHandler.swift */,
 				4C14B01B2B3BA40000C74A6A /* LearniOS2App.swift */,
 				4C14B01D2B3BA40000C74A6A /* ContentView.swift */,
 				4C14B01F2B3BA40100C74A6A /* Assets.xcassets */,
@@ -129,6 +162,16 @@
 			path = LearniOS2UITests;
 			sourceTree = "<group>";
 		};
+		7B107BE3E230204D07F45BFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A58A9AE3AA5F7082190C307 /* Pods_LearniOS2.framework */,
+				7C9F54BD4A0B1A6A9F5566C3 /* Pods_LearniOS2_LearniOS2UITests.framework */,
+				3348340DF6ECB5ADE8543C88 /* Pods_LearniOS2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C14B03D2B3BA40100C74A6A /* Build configuration list for PBXNativeTarget "LearniOS2" */;
 			buildPhases = (
+				A47423677C82A793CC5AED5C /* [CP] Check Pods Manifest.lock */,
 				4C14B0142B3BA40000C74A6A /* Sources */,
 				4C14B0152B3BA40000C74A6A /* Frameworks */,
 				4C14B0162B3BA40000C74A6A /* Resources */,
+				4BA3F6F9325DF70EA3C5971E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C14B0402B3BA40100C74A6A /* Build configuration list for PBXNativeTarget "LearniOS2Tests" */;
 			buildPhases = (
+				394B207F52E595A457E68944 /* [CP] Check Pods Manifest.lock */,
 				4C14B0252B3BA40100C74A6A /* Sources */,
 				4C14B0262B3BA40100C74A6A /* Frameworks */,
 				4C14B0272B3BA40100C74A6A /* Resources */,
@@ -171,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C14B0432B3BA40100C74A6A /* Build configuration list for PBXNativeTarget "LearniOS2UITests" */;
 			buildPhases = (
+				0A044CCEE2EFFEE96041F20A /* [CP] Check Pods Manifest.lock */,
 				4C14B02F2B3BA40100C74A6A /* Sources */,
 				4C14B0302B3BA40100C74A6A /* Frameworks */,
 				4C14B0312B3BA40100C74A6A /* Resources */,
+				201700402725E644C3223935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A044CCEE2EFFEE96041F20A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearniOS2-LearniOS2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		201700402725E644C3223935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearniOS2-LearniOS2UITests/Pods-LearniOS2-LearniOS2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearniOS2-LearniOS2UITests/Pods-LearniOS2-LearniOS2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearniOS2-LearniOS2UITests/Pods-LearniOS2-LearniOS2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		394B207F52E595A457E68944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearniOS2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA3F6F9325DF70EA3C5971E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearniOS2/Pods-LearniOS2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearniOS2/Pods-LearniOS2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearniOS2/Pods-LearniOS2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47423677C82A793CC5AED5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearniOS2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C14B0142B3BA40000C74A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 			files = (
 				4C14B01E2B3BA40000C74A6A /* ContentView.swift in Sources */,
 				4C14B01C2B3BA40000C74A6A /* LearniOS2App.swift in Sources */,
+				4C79318C2B3BE727007779AD /* APIFetchHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +560,7 @@
 		};
 		4C14B03E2B3BA40100C74A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3474BE6328DCD264A598C7C /* Pods-LearniOS2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +597,7 @@
 		};
 		4C14B03F2B3BA40100C74A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5173BE34C45CB93E0B15A3E8 /* Pods-LearniOS2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +634,7 @@
 		};
 		4C14B0412B3BA40100C74A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6165EC249CCD0D9197119B67 /* Pods-LearniOS2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +657,7 @@
 		};
 		4C14B0422B3BA40100C74A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E126ECD1D58FA88E2FC00F1 /* Pods-LearniOS2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +680,7 @@
 		};
 		4C14B0442B3BA40100C74A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B756B24773ECF0BF7859C4D /* Pods-LearniOS2-LearniOS2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +702,7 @@
 		};
 		4C14B0452B3BA40100C74A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86160A7B83A110FA838B342B /* Pods-LearniOS2-LearniOS2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
